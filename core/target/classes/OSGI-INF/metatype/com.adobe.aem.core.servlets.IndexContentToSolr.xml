@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.adobe.aem.core.servlets.IndexContentToSolr">
+    <OCD id="com.adobe.aem.core.servlets.IndexContentToSolr" name="%com.adobe.aem.core.servlets.IndexContentToSolr.name" description="%com.adobe.aem.core.servlets.IndexContentToSolr.description">
+        <AD id="sling.servlet.methods" type="String" default="GET" name="%com.adobe.aem.core.servlets.IndexContentToSolr.sling.servlet.methods.name" description="%com.adobe.aem.core.servlets.IndexContentToSolr.sling.servlet.methods.description"/>
+        <AD id="sling.servlet.paths" type="String" default="/bin/solr/push/pages" name="%com.adobe.aem.core.servlets.IndexContentToSolr.sling.servlet.paths.name" description="%com.adobe.aem.core.servlets.IndexContentToSolr.sling.servlet.paths.description"/>
+    </OCD>
+    <Designate pid="com.adobe.aem.core.servlets.IndexContentToSolr">
+        <Object ocdref="com.adobe.aem.core.servlets.IndexContentToSolr"/>
+    </Designate>
+</metatype:MetaData>

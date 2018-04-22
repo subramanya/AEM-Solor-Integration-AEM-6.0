@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>solr - UI apps</comment>
+<entry key="createdBy">slaks1</entry>
+<entry key="name">solr.ui.apps</entry>
+<entry key="created">2018-04-23T00:50:19.229+0100</entry>
+<entry key="groupId">com.adobe.aem</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">solr</entry>
+<entry key="description">UI apps package for solr</entry>
+<entry key="artifactId">solr.ui.apps</entry>
+<entry key="path">/etc/packages/solr/solr.ui.apps.zip</entry>
+</properties>

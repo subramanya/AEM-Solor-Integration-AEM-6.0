@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="com.adobe.aem.core.servlets.DeleteIndexesFromSolr">
+        <implementation class="com.adobe.aem.core.servlets.DeleteIndexesFromSolr"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths">
+            /bin/solr/delete/all/indexes
+        </property>
+        <property name="sling.servlet.methods">
+            POST
+        </property>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.adobe.aem.core.servlets.DeleteIndexesFromSolr"/>
+        <reference name="solrConfigurationService" interface="com.adobe.aem.core.SolrServerConfiguration" cardinality="1..1" policy="static" bind="bindSolrConfigurationService" unbind="unbindSolrConfigurationService"/>
+    </scr:component>
+</components>

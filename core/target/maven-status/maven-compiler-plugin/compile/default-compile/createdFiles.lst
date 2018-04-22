@@ -1,0 +1,8 @@
+com/adobe/aem/core/impl/SolrServerConfigurationImpl.class
+com/adobe/aem/core/impl/SolrSearchServiceImpl.class
+com/adobe/aem/core/package-info.class
+com/adobe/aem/core/SolrSearchService.class
+com/adobe/aem/core/utils/SolrUtils.class
+com/adobe/aem/core/SolrServerConfiguration.class
+com/adobe/aem/core/servlets/DeleteIndexesFromSolr.class
+com/adobe/aem/core/servlets/IndexContentToSolr.class
